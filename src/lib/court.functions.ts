@@ -262,14 +262,13 @@ export const courtStep = createServerFn({ method: "POST" })
 
 
     if (!parsed) {
-      return {
-        kind: "question",
-        question:
-          data.lang === "ar"
-            ? "ماذا حدث بعد ذلك؟"
-            : "What happened after that?",
-      };
-    }
+          return {
+            kind: "question",
+            question:
+              (data.lang === "ar" ? "ماذا حدث بعد ذلك؟" : "What happened after that?") +
+              (debugErr ? `\n\n[DEBUG] ${debugErr}` : ""),
+          };
+        }
 
 
 
