@@ -74,7 +74,7 @@ const dict = {
       "• My brother and I are fighting over the TV remote.",
     ],
     emptyHint: "Write your case first.",
-    modesTitle: "🧩 Court Modes",
+    modesTitle: "Court Modes",
     modesSubtitle: "Choose how your case should be handled.",
     modeDescriptions: {
       confess: "Admit something you personally did. The Court will judge your actions.",
@@ -196,7 +196,7 @@ const dict = {
       "• أنا وأخي نتشاجر على جهاز التحكم.",
     ],
     emptyHint: "اكتب قضيتك أولاً.",
-    modesTitle: "🧩 أنماط المحكمة",
+    modesTitle: "أنماط المحكمة",
     modesSubtitle: "اختر كيف ستُعالَج قضيتك.",
     modeDescriptions: {
       confess: "اعترف بأمرٍ فعلتَه بنفسك، وستحكم عليك المحكمة.",
